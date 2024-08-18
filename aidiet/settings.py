@@ -20,7 +20,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/4.0/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-t_1j#l9zzrveexyut3*te9m*%vf4n6&m)&@f6x$#64%u7_xu@2'
+SECRET_KEY = 'Paste your secret key here'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -41,8 +41,7 @@ INSTALLED_APPS = [
     'bootstrap5'
 ]
 
-FITBIT_CLIENT_ID = '23PPCD'
-FITBIT_CLIENT_SECRET = '6f0bbb852e2682bb3c97790ccb063165'
+
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
@@ -133,8 +132,7 @@ EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
-EMAIL_HOST_USER = 'agrawalharsh0522@gmail.com'
-EMAIL_HOST_PASSWORD = 'mkvibuftretdplth'
+
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.0/ref/settings/#default-auto-field
